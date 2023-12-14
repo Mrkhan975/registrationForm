@@ -60,7 +60,7 @@ const RegistrationPage = () => {
               }
             />
           </div>
-          {isRegLog && (
+        
             <div className="formItems">
               <PersonPinCircleIcon />
               <input
@@ -72,8 +72,8 @@ const RegistrationPage = () => {
                 }
               />
             </div>
-          )}
-          {isRegLog && (
+       
+       
             <div className="formItems">
               <EmailIcon />
               <input
@@ -85,7 +85,7 @@ const RegistrationPage = () => {
                 }
               />
             </div>
-          )}
+        
           <div className="formItems">
             <KeyIcon />
             <input
